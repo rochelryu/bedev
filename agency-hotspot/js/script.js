@@ -129,6 +129,7 @@ $(window).on("load", function () {
                     setTimeout(function(){
                         $('.about-fadeIn').removeClass('slideInLeft');
                     }, 1500);
+                    
 
                     $('.about-zoom1In').addClass('zoomIn');
                     setTimeout(function(){
@@ -157,10 +158,11 @@ $(window).on("load", function () {
                 }
 
                 if(nextIndex == 3) {
-                    $('.section3left').addClass('slideInLeft');
-                    setTimeout(function(){
-                        $('.section3left').removeClass('slideInLeft');
-                    }, 1800);
+                    
+                    // setTimeout(function(){
+                    //     $('.section3left').addClass('zoomOut');
+                    // }, 1800);
+                    
 
                     $('.section3right').addClass('slideInRight');
                     setTimeout(function(){

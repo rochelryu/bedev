@@ -73,9 +73,14 @@ section{padding: 0;}
 .text-light-black {color: #232728;}
 
 /* Background color */
-.bg-green {background: #71911b;}
-.bg-pink {background: #9a004c;}
-.bg-yellow {background: #ca9800;}
+.bg-green {background: url('../images/AccueilPsd3.png') no-repeat center}
+.bg-pink {background: url('../images/AccueilPsd2.jpg') no-repeat center}
+.bg-yellow {background: url('../images/managment_transition.jpg') no-repeat 50% 100%}
+.size-30 {
+    width: 10%;
+}
+
+
 .text-light-black {background: #232728;}
 .bg-blue {background: #11769e;}
 .bg-red {background: #790707;}
@@ -165,7 +170,13 @@ section{padding: 0;}
     -webkit-transition: -webkit-transform 0.3s, box-shadow 0.3s;
     transition: transform 0.3s, box-shadow 0.3s;
 }
-
+.display-all {
+    min-height: 100vh;
+    min-width: 100%;
+}
+.none {
+    display: none !important;
+}
 #pp-nav li, .pp-slidesNav li {
     display: block;
     width: 12px;
@@ -1617,6 +1628,8 @@ svg.slider-shape{
 .header-appear .animated-wrap, .header-appear .animated-element {
     transform: none !important;
 }
+
+
 
 /* ===================================
         Preloader
