@@ -59,7 +59,7 @@ $(window).on("load", function () {
             navigation: {
                 'bulletsColor': '#535353',
                 'position': 'left',
-                'tooltips': ['Accueil', 'A propos', 'Réferences', 'Services', 'Equipe', 'Contact'],
+                'tooltips': ['Accueil', 'Economie Verte', 'Management de Transition', 'Mécénat % Philantropie', 'Eco Communication', 'Partenariat', 'Presse'],
             },
 
             //events
@@ -128,6 +128,11 @@ $(window).on("load", function () {
                     $('.about-fadeIn').addClass('slideInLeft');
                     setTimeout(function(){
                         $('.about-fadeIn').removeClass('slideInLeft');
+                    }, 1500);
+
+                    $('.about-fadeOut').addClass('slideInRight');
+                    setTimeout(function(){
+                        $('.about-fadeOut').removeClass('slideInRight');
                     }, 1500);
                     
 
